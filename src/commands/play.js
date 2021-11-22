@@ -60,7 +60,6 @@ const playSong = async (bot, msg, song) => {
   });
   bot.queues.set(msg.member.guild.id, queue);
 };
-
 module.exports = {
   name: "p",
   help: "Toca a porra da música",
